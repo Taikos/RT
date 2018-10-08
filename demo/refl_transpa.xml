@@ -1,0 +1,707 @@
+<folder name="options 2">
+	<scene name="reflection">
+		<sphere name="Sphere" >
+			<ray value="3" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_specular r="1" g="1" b="1" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="10" y="5" z="0" />
+			<limit_min x="0" y="1" z="0" />
+			<limit_max x="0" y="-1" z="0" />
+			<rotate x="0.3" y="0" z="0.5" />
+			<texture color="textures/earth.bmp" pertu="textures/wood.bmp"/>
+			<checker_A r="0.2" g="0.2" b=""/>
+			<checker_B r="" g="" b="1"/>
+			<checker_width value="8"/>
+			<checker_length value="8"/>
+			<noise_A r="" g="0.5" b=""/>
+			<noise_B r="0.5" g="" b=""/>
+			<noise_octaves valeur="0.01"/>
+			<noise_persistence valeur="25"/>
+		</sphere>
+		<plan type="PLANE" name="Plan A">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="0" g="0" b="0.5" />
+			<color_specular r="1" g="1" b="1" />
+			<pos x="0" y="0" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/marble.bmp" pertu=""/>
+			<checker_A r="0.2" g="0.2" b=""/>
+			<checker_B r="" g="" b="1"/>
+			<checker_width value="8"/>
+			<checker_length value="8"/>
+			<noise_A r="" g="0.5" b=""/>
+			<noise_B r="0.5" g="" b=""/>
+			<noise_octaves valeur="0.01"/>
+			<noise_persistence valeur="25"/>
+		</plan>
+		<disque type="DISK" name="Disque de Platine">
+			<ray value="100" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.368000" g="0.159999" b="0.195999" />
+			<color r="0.368000" g="0.159999" b="0.195999" />
+			<color_specular r="1" g="1" b="1" />
+			<pos x="100" y="0" z="5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/wood_col.bmp" pertu=""/>
+			<checker_A r="0.5" g="0" b="0"/>
+			<checker_B r="0" g="0" b="0.5"/>
+			<checker_width value="5"/>
+			<checker_length value="5"/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</disque>
+		<cone type="CONE" name="Cone">
+			<ray value="0.298446" />
+			<alpha value="0.5" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0.5" b="0.5" />
+			<color r="0" g="0.5" b="0.5" />
+			<color_specular r="1" g="1" b="1" />
+			<pos x="10" y="-5" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/sky.bmp" pertu="textures/wood.bmp"/>
+			<checker_A r="0.2" g="0.2" b=""/>
+			<checker_B r="" g="" b="1"/>
+			<checker_width value="8"/>
+			<checker_length value="8"/>
+			<noise_A r="" g="0.5" b=""/>
+			<noise_B r="0.5" g="" b=""/>
+			<noise_octaves valeur="0.01"/>
+			<noise_persistence valeur="25"/>
+		</cone>
+		<cylindre type="CYLINDER" name="cylindre bleu">
+			<ray value="1" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0" />
+			<color r="0.5" g="0.5" b="0" />
+			<color_specular r="1" g="1" b="1" />
+			<pos x="10" y="0" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="1.570000" y="0" z="0" />
+			<texture color="textures/mars.bmp" pertu=""/>
+			<checker_A r="0.2" g="0.2" b=""/>
+			<checker_B r="" g="" b="1"/>
+			<checker_width value="8"/>
+			<checker_length value="8"/>
+			<noise_A r="" g="0.5" b=""/>
+			<noise_B r="0.5" g="" b=""/>
+			<noise_octaves valeur="0.01"/>
+			<noise_persistence valeur="25"/>
+		</cylindre>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="spot">
+			<intensity value="0.8" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="-10" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+	<scene name="low reflection">
+			<plan type="PLANE" name="Plan A">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="0" g="0" b="0.5" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="0" y="0" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<sphere name="Sphere rouge" >
+			<ray value="3" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_specular r="1" g="1" b="1" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="10" y="5" z="0" />
+			<limit_min x="0" y="1" z="0" />
+			<limit_max x="0" y="-1" z="0" />
+			<rotate x="0.3" y="0" z="0.5" />
+			<texture color="" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<disque type="DISK" name="Disque de Platine">
+			<ray value="100" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.368000" g="0.159999" b="0.195999" />
+			<color r="0.368000" g="0.159999" b="0.195999" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="100" y="0" z="5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/marble.bmp" pertu="textures/marble_N.bmp"/>
+			<checker_A r="0.5" g="0" b="0"/>
+			<checker_B r="0" g="0" b="0.5"/>
+			<checker_width value="5"/>
+			<checker_length value="5"/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</disque>
+		<cone type="CONE" name="cone">
+			<ray value="0.298446" />
+			<alpha value="0.5" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0.5" b="0.5" />
+			<color r="0" g="0.5" b="0.5" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="-5" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cone>
+		<cylindre type="CYLINDER" name="cylindre bleu">
+			<ray value="1" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0" />
+			<color r="0.5" g="0.5" b="0" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="0" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="1.570000" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cylindre>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="spot">
+			<intensity value="0.8" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="-10" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+	<scene name= "low transparence">
+			<plan type="PLANE" name="Plan A">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="0" g="0" b="0.5" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="0" y="0" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<sphere name="Sphere de OUF" >
+			<ray value="3" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0.2" />
+			<shininess value="99" />
+			<color_specular r="0" g="0" b="0" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="10" y="5" z="0" />
+			<limit_min x="0" y="1" z="0" />
+			<limit_max x="0" y="-1" z="0" />
+			<rotate x="0.3" y="0" z="0.5" />
+			<texture color="" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<disque type="DISK" name="Disque de Platine">
+			<ray value="100" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.368000" g="0.159999" b="0.195999" />
+			<color r="0.368000" g="0.159999" b="0.195999" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="100" y="0" z="5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/marble.bmp" pertu="textures/marble_N.bmp"/>
+			<checker_A r="0.5" g="0" b="0"/>
+			<checker_B r="0" g="0" b="0.5"/>
+			<checker_width value="5"/>
+			<checker_length value="5"/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</disque>
+		<cone type="CONE" name="Cornetto Enigma">
+			<ray value="0.298446" />
+			<alpha value="0.5" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0.5" b="0.5" />
+			<color r="0" g="0.5" b="0.5" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="-5" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cone>
+		<cylindre type="CYLINDER" name="cylindre">
+			<ray value="1" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0" />
+			<color r="0.5" g="0.5" b="0" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="0" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="1.570000" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cylindre>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="spot">
+			<intensity value="0.8" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="-10" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+	<scene name="transparence">
+			<plan type="PLANE" name="Plan A">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="0" g="0" b="0.5" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="0" y="0" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<sphere name="Sphere" >
+			<ray value="3" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0.8" />
+			<shininess value="99" />
+			<color_specular r="0" g="0" b="0" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="10" y="5" z="0" />
+			<limit_min x="0" y="1" z="0" />
+			<limit_max x="0" y="-1" z="0" />
+			<rotate x="0.3" y="0" z="0.5" />
+			<texture color="" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<disque type="DISK" name="Disque de Platine">
+			<ray value="100" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.368000" g="0.159999" b="0.195999" />
+			<color r="0.368000" g="0.159999" b="0.195999" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="100" y="0" z="5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/marble.bmp" pertu="textures/marble_N.bmp"/>
+			<checker_A x="0.5" y="0" z="0"/>
+			<checker_B r="0" g="0" b="0.5"/>
+			<checker_width value="5"/>
+			<checker_length value="5"/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</disque>
+		<cone type="CONE" name="Cornetto Enigma">
+			<ray value="0.298446" />
+			<alpha value="0.5" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0.5" b="0.5" />
+			<color r="0" g="0.5" b="0.5" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="-5" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cone>
+		<cylindre type="CYLINDER" name="cylindre bleu">
+			<ray value="1" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0" />
+			<color r="0.5" g="0.5" b="0" />
+			<color_specular r="0.2" g="0.2" b="0.2" />
+			<pos x="10" y="0" z="0" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="1.570000" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cylindre>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="spot">
+			<intensity value="0.8" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="-10" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+	<scene name="lampe">
+		<plan type="PLANE" name="Plan A">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="1" g="1" b="1" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="0" y="0" z="-3" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<sphere name="Sphere" >
+			<ray value="1.8" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0.5" />
+			<shininess value="99" />
+			<color_specular r="0" g="0" b="0" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="5" y="0" z="0" />
+			<limit_min x="" y="" z="" />
+			<limit_max x="" y="" z="1" />
+			<rotate x="" y="0" z="" />
+			<texture color="textures/earth.bmp" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<cone type="CONE" name="Cornetto Enigma">
+			<ray value="0.298446" />
+			<alpha value="0.5" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.8" b="0" />
+			<color r="0.5" g="0.8" b="0" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="5" y="0" z="-2" />
+			<limit_min x="0" y="0" z="-1" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/mars.bmp" pertu="textures/wood.bmp"/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cone>
+		<cylindre type="CYLINDER" name="02598">
+			<ray value="0.3" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.8" b="0" />
+			<color r="0.5" g="0.8" b="0" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="5" y="0" z="-2" />
+			<limit_min x="0" y="0" z="-1" />
+			<limit_max x="0" y="0" z="2" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/garen.bmp" pertu=""/>
+			<checker_A r="" g="" b=""/>
+			<checker_B r="" g="" b=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cylindre>
+		<disque type="DISK" name="Disque de Platine">
+			<ray value="5" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.368000" g="0.159999" b="0.195999" />
+			<color r="0.368000" g="0.159999" b="0.195999" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="5" y="0" z="5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="textures/marble.bmp" pertu="textures/marble_N.bmp"/>
+			<checker_A x="0.5" y="0" z="0"/>
+			<checker_B r="0" g="0" b="0.5"/>
+			<checker_width value="5"/>
+			<checker_length value="5"/>
+			<noise_A r="" g="" b=""/>
+			<noise_B r="" g="" b=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</disque>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="spot">
+			<intensity value="0.8" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="5" y="0" z="2" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="-10" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+</folder>

@@ -1,0 +1,259 @@
+<folder name="samplebouf">
+	<scene namese="scene1_2">
+		<sphere nme="Sphere de rouge" >
+			<ray value="5" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_specular r="0.5" g="0.5" b="0.5" />
+			<color r="0.5" g="0" b="0" />
+			<color_ambient r="0.5" g="0" b="0" />
+			<pos x="37" y="-25" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0.5" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<sphere nme="Sphere de verte" >
+			<ray value="5" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_specular r="0.5" g="0.5" b="0.5" />
+			<color r="0" g="0.5" b="0" />
+			<color_ambient r="0" g="0.5" b="0" />
+			<pos x="37" y="25" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0.5" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<plan type="PLANE" name="Plan gris">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0.5" />
+			<color r="0.5" g="0.5" b="0.5" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="0" y="0" z="-15" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<plan type="PLANE" name="Plan bleu">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0" g="0" b="0.5" />
+			<color r="0" g="0" b="0.5" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="65" y="0" z="-15" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="1.5" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<cylindre type="CYLINDER" name="cylindre rose">
+			<ray value="5" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0" b="0.5" />
+			<color r="0.5" g="0" b="0.5" />
+			<color_specular r="0.5" g="0.5" b="0.5" />
+			<pos x="45" y="-12" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="2.2" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cylindre>
+		<cone type="CONE" name="Cone jaune">
+			<ray value="0.298446" />
+			<alpha value="0.25" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0" />
+			<color r="0.5" g="0.5" b="0" />
+			<color_specular r="0.5" g="0.5" b="0.5" />
+			<pos x="45" y="15" z="-10" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="-2.2" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</cone>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="oui">
+			<intensity value="1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="15" y="25" z="0" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<spot name="oui">
+			<intensity value="1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="15" y="-25" z="0" />
+			<dir x="0" y="0" z="0" />
+			<color r="1" g="1" b="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+        <camera>
+			<fov value="1.1" />
+			<origin x="37" y="-27" z="-4" />
+			<rotate x="0" y="0" z="20.5" />
+		</camera>
+	</scene>
+	<scene namese="scene3">
+		<sphere nme="Sphere rohse" >
+			<ray value="5" />
+			<alpha value="0" />
+			<diffuse value="0.5" />
+			<transparency value="0" />
+			<shininess value="70" />
+			<color_specular r="0.5" g="0.5" b="0.5" />
+			<color r="0.5" g="0" b="0.5" />
+			<color_ambient r="0.5" g="0" b="0.5" />
+			<pos x="40" y="15" z="-5" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0.5" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</sphere>
+		<plan type="PLANE" name="Plan gris">
+			<ray value="0" />
+			<alpha value="0" />
+			<diffuse value="1" />
+			<transparency value="0" />
+			<shininess value="99" />
+			<color_ambient r="0.5" g="0.5" b="0.5" />
+			<color r="0.5" g="0.5" b="0.5" />
+			<color_specular r="0" g="0" b="0" />
+			<pos x="0" y="0" z="-15" />
+			<limit_min x="0" y="0" z="0" />
+			<limit_max x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+			<texture color="" pertu=""/>
+			<checker_A x="" y="" z=""/>
+			<checker_B x="" y="" z=""/>
+			<checker_width value=""/>
+			<checker_length value=""/>
+			<noise_A x="" y="" z=""/>
+			<noise_B x="" y="" z=""/>
+			<noise_octaves valeur=""/>
+			<noise_persistence valeur=""/>
+		</plan>
+		<ambient name="ambient">
+			<intensity value="0.1" />
+			<ray value="0.1" />
+			<alpha value="0" />
+			<pos x="0" y="0" z="-2" />
+			<dir x="0" y="0" z="0" />
+			<color x="1" y="1" z="1" />
+			<luminance x="0.9" y="0.9" z="0.9" />
+		</ambient>
+		<spot name="oui">
+			<color r="1" g="1" b="1"/>
+			<intensity value="1"/>
+			<ray value="0.1"/>
+			<pos x="0" y="26" z="8"/>
+		</spot>
+		<spot name="oui2">
+			<color r="1" g="1" b="1"/>
+			<intensity value="1"/>
+			<ray value="0.1"/>
+			<pos x="0" y="20" z="6"/>
+		</spot>
+		<spot name="oui3">
+			<color r="1" g="1" b="1"/>
+			<intensity value="1"/>
+			<ray value="0.1"/>
+			<pos x="0" y="16" z="6"/>
+		</spot>
+		<camera>
+			<fov value="1.570796" />
+			<origin x="0" y="0" z="0" />
+			<rotate x="0" y="0" z="0" />
+		</camera>
+	</scene>
+</folder>
