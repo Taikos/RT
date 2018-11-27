@@ -5,7 +5,7 @@ Program which is generating images according to Raytracing protocol.
 <br/>
 <br/>
 <b>USAGE:</b><br/>
-<i>make coffee</i>
+<i>make coffee</i><br/>
 <i>./rt demo/[file.xml]</i>
 <br/>
 <br/>
