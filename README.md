@@ -9,11 +9,11 @@ Program which is generating images according to Raytracing protocol.
 <i>./rt demo/[file.xml]</i>
 <br/>
 <br/>
-<b>USER GUIDE:</b>
-MOVE CAMERA: A ; Z ; E ; Q ; S ; D ; W ; SHIFT ; CTRL ; ARROWS</b>
-RESTART SCREEN: R</b>
-MUSIC PLAY - STOP : M</b>
-
+<b>USER GUIDE:</b><br/>
+<i>MOVE CAMERA:</i> A ; Z ; E ; Q ; S ; D ; W ; SHIFT ; CTRL ; ARROWS</b><br/>
+<i>RESTART SCREEN:</i> R</b><br/>
+<i>MUSIC PLAY - STOP:</i> M</b><br/>
+<br/><br/>
 <b>EXAMPLES:</b>
 <br/>
 ![Scene1.jpg](RT1_Screen.jpg)<br/>
